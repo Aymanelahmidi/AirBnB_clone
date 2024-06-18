@@ -1,0 +1,104 @@
+.amenities1 {
+    margin-top: 40px;
+    width: 100;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.amenities1 h2 {
+    font-size: 16px;
+    border-bottom: 1px solid #DDDDDD;
+    text-align: left;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.amenities1 ul li{
+    list-style: none;
+    text-align: left;
+    position: relative;
+    height: 40px;
+    padding-top: 0PX;
+}
+
+  .tv:before {
+    content: " ";
+    background-image: url("../images/icon_tv.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: -10px;
+    left: -40px;
+  }
+
+  .wifi:before {
+    content: " ";
+    background-image: url("../images/icon_wifi.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: -10px;
+    left: -40px;
+
+  }
+
+  .pet:before {
+    content: " ";
+    background-image: url("../images/icon_pets.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: -10px;
+    left: -40px;
+
+}
+
+.reviews {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews h2 {
+    font-size: 16px;
+    border-bottom: 1px solid #DDDDDD;
+    text-align: left;
+    width: 100%;
+    padding-bottom: 10px;
+}
+.reviews ul {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding: 0;
+    
+}
+
+
+.reviews ul li{
+    list-style: none;
+    text-align: left;
+    padding: 0;
+   list-style-position: inside;
+
+}
+.reviews p,
+.reviews h3 {
+    text-align: left;
+    padding-top: 0;
+    margin-bottom: 1px;
+}
+
+.reviews p {
+    margin-top: 0;
+}
